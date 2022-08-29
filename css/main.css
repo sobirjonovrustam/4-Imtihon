@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Rubik';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'), 
+    url('../fonts/rubik-v21-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v21-latin-500.woff2') format('woff2'), 
+    url('../fonts/rubik-v21-latin-500.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/noto-sans-v27-latin-500.woff2') format('woff2'), 
+    url('../fonts/noto-sans-v27-latin-500.woff') format('woff'); 
+}
+
+body {
+    font-family: 'Rubik', 'Arial', sans-serif;
+}
+
+.dark__mode {
+    background-color: #000;
+    color: #fff;
+}
+
+.book__svg {
+    color: black;
+}
+
+.collapse {
+    margin-left: 56px;
+}
+
+.bgc-white {
+    background: #F8FAFD;
+}
+
+.label {
+    display: flex;
+    align-items: center; 
+    width: 670px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 6px 16px;
+}
+
+.search {
+    background: #F8FAFD;
+    color: #000;
+    outline: none;
+    border: none;
+}
+
+.search:focus {
+    background: #F8FAFD;
+}
+
+.dark__btn {
+    border: none;
+}
+
+.book__wrapper {
+    background-color: #E5E5E5;
+}
+
+.bookmark__card {
+    background: #F8FAFD;
+    border-radius: 4px;
+    padding: 15px 10px;
+}
+
+.book__card__img {
+    background: #F8FAFD;
+    border-radius: 5px;
+    padding: 18px 24px;
+}
+
+.col__active {
+    color: white;
+}
+
+.wrapper-active {
+    background-color: darkslateblue;
+    height: 100%;
+    color: #fff;
+}
+
+.iput__active {
+    background-color: dimgray;
+}
+
+.iput__active:focus {
+    background-color: dimgray;
+    color: #fff;
+}
